@@ -49,15 +49,15 @@ wp_scored_city_articles_by_state.csv: Final combined dataset for analyses.
 
 Schema -   
 
-|Columns:          |  
---------------------
+|Columns           |  
+| ---------------- |
 |state             |  
 |regional_division |  
 |population        |  
 |article_title     |  
 |revision_id       |  
 |article_quality   |  
--------------------- 
+
 
 Intermediate Files - 
 rev-id-details.json - contains the revision ID for each article  
