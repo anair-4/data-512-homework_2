@@ -61,7 +61,22 @@ Schema -
 
 Intermediate Files - 
 rev-id-details.json - contains the revision ID for each article  
-score-details.json (1-6) - contains the response of the ORES API  
+score-details.json (1-6) - contains the response of the ORES API   
+
+## Research Implications
+
+As part of this project, I was able to acquire data using APIs which gave me insight into some of its limitations and best practices like ensuring that the API isn't called too many times an hour. I realized that the "too many requests" error was propbably to ensure that no individual gets an unfair share of the resources that were meant to be used by everyone. Moreover, exploring geographic biases that are represented in data even in a well-resourced country like the US gave me great insight into how prevalent bias is and how important it is to explore, identify and remove it to create fair and equitable systems. 
+
+1. What biases did you expect to find in the data (before you started working with it), and why?  
+A bias that I expected to find in the data before I started working with it using the information from the introduction in class was that places that were more travelled to or visited would have a better classification as there would be more contributions for those articles. I also expected to see large cities that are considered "hubs" for various industries to have a better classification.
+
+2. What might your results suggest about (English) Wikipedia as a data source?
+Wikipedia is a valuable resource for general information, providing a vast quantity of data with citations. However, its reliability and neutrality may vary. Although Wikipedia seems to have some strict rules around verifiability, the fact that it is community edited can open it up to inaccuracies and bias. Hence, it does not seem like an appropriate data source for academic research.
+
+3. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
+Researchers could supplement this dataset a number of ways. One would be to consult an expert about the specific geographic or demographic factors being studied. Second, they will have to conduct additional data acquisition from several other sources. Lastly, they must highlight limitations and transparently report the dataset's limitations and biases in research publications to ensure that users and readers are aware of the data's context and potential constraints. 
+
+
 
 
 
