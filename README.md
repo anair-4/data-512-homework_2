@@ -48,9 +48,9 @@ The project generates one JSON output file and multiple intermediate JSON files 
 wp_scored_city_articles_by_state.csv: Final combined dataset for analyses.  
 
 Schema -   
--------------------
+
 |Columns:          |  
-:---: :---: :---: 
+--------------------
 |state             |  
 |regional_division |  
 |population        |  
