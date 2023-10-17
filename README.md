@@ -59,7 +59,7 @@ Schema -
 |article_quality   |  
 
 
-Intermediate Files - 
+Intermediate Files -  
 rev-id-details.json - contains the revision ID for each article  
 score-details.json (1-6) - contains the response of the ORES API   
 
