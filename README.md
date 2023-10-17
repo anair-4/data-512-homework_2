@@ -41,13 +41,28 @@ This project is open-source and follows the MIT License. You are free to use and
 2)	Run the Jupyter notebook which contains the code to retrieve the data from the google document and the APIs, preprocess it, upload it into the output files and create the necessary visualizations. 
 
 ## Errors Handled
-
+Since the number of requests was so high, the API would stop responding after every 3000-4000 requests with a 429 error code signifying too many requests. So, the dictionary was saved into a file in order to save the responses that were given and then the function was run again to update the doctionary with the remaining values. The process takes about 7 hours in total.
 
 ## Output Files 
-The project generates three JSON output files. No intermediate files were created.  
-academy_monthly_mobile_201507-202312.json: Monthly mobile access data.  
-academy_monthly_desktop_201507-202312.json: Monthly desktop access data.  
-academy_monthly_cumulative_201507-202312.json: Monthly cumulative data.  
+The project generates one JSON output file and multiple intermediate JSON files which were used to save intermediate outputs. The final output of each of the analyses are embedded in the notebook.
+wp_scored_city_articles_by_state.csv: Final combined dataset for analyses.  
+Schema - 
+++++++++++++++++++++
+|Columns:          |
+++++++++++++++++++++
+|state             |
+|regional_division |
+|population        |
+|article_title     |
+|revision_id       |
+|article_quality   |
+++++++++++++++++++++
+
+Intermediate Files - 
+rev-id-details.json - contains the revision ID for each article
+score-details.json (1-6) - contains the response of the ORES API
+
+
 
 
 
