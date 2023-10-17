@@ -22,12 +22,12 @@ Stub - Stub-class article
 
 
 ## API Documentation
-In order to measure article traffic from 2015-2023, data was collected from the Pageviews API. 
-Documentation - https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews  
-Endpoint - https://wikimedia.org/api/rest_v1/#/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end  
+In order to measure article traffic from 2015-2023, data was collected from the MediaWiki Action API. 
+Documentation - https://www.mediawiki.org/wiki/API:Info
 Terms of use of the Wikimedia Foundation REST API - https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions  
 Further the following example notebook was used under the CC-BY license.  
-Example Notebook - https://drive.google.com/file/d/1XjFhd3eXx704tcdfQ4Q1OQn0LWKCRNJm/view  
+Example Notebook for Getting Page Info - https://drive.google.com/file/d/15UoE16s-IccCTOXREjU3xDIz07tlpyrl/view
+Example Notebook for the ORES API - https://drive.google.com/file/d/17C9xsmR9U3lJeD52UTbAedlHDetwYsxs/view
 CC-BY License - https://creativecommons.org/licenses/by/4.0/  
  
 ## Environment
@@ -41,7 +41,7 @@ This project is open-source and follows the MIT License. You are free to use and
 2)	Run the Jupyter notebook which contains the code to retrieve the data from the google document and the APIs, preprocess it, upload it into the output files and create the necessary visualizations. 
 
 ## Errors Handled
-The parameter safe='' was added to the urllib.parse.quote function so that it is able to handle cases where the movie name contains a special character
+
 
 ## Output Files 
 The project generates three JSON output files. No intermediate files were created.  
