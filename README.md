@@ -45,18 +45,19 @@ Since the number of requests was so high, the API would stop responding after ev
 
 ## Output Files 
 The project generates one JSON output file and multiple intermediate JSON files which were used to save intermediate outputs. The final output of each of the analyses are embedded in the notebook.  
-wp_scored_city_articles_by_state.csv: Final combined dataset for analyses.    
+wp_scored_city_articles_by_state.csv: Final combined dataset for analyses.  
+
 Schema -   
-++++++++++++++++++++  
+-------------------
 |Columns:          |  
-++++++++++++++++++++  
+:---: :---: :---: 
 |state             |  
 |regional_division |  
 |population        |  
 |article_title     |  
 |revision_id       |  
 |article_quality   |  
-++++++++++++++++++++  
+-------------------- 
 
 Intermediate Files - 
 rev-id-details.json - contains the revision ID for each article  
